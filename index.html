@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <script src="https://kit.fontawesome.com/350478448c.js" crossorigin="anonymous"></script>
+    <script src="./javaScript.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -17,23 +20,25 @@
             <div class="logo">
                 <img src="./assets/asset 1.png" alt="">
             </div>
-            <div class="navlinks">
-                <ul>
+                <ul class="navlinks">
                     <li><a href="#">Product</a></li>
                     <li><a href="#">Costumers</a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Resources</a></li>
                     <a href="#" class="btn">Sign in</a>
-                    <a href="#" class="btn">Sign up</a>
+                    <a href="#" class="btn active">Sign up</a>
                 </ul>
+            <div class="menubar">
+                <i class="fa-solid fa-bars"></i>
             </div>
+            <i class="fa-solid fa-xmark"></i>
         </nav>
         <div class="home">
             <div class="left">
                 <h1>Design confidently.</h1>
                 <p>UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by
                     validating them with real users.</p>
-                <a href="#" class="btn">Getting Started</a>
+                <a href="#" class="btn active">Getting Started</a>
             </div>
             <div class="right">
                 <img src="./assets/asset 1.jpeg" alt="">
@@ -97,6 +102,189 @@
             </div>
         </div>
     </section>
+    <section class="big-feature-section container">
+        <div class="b-feature">
+            <div class="b-content-img">
+                <img src="./assets/asset 15.png" alt="">
+            </div>
+            <div class="f1-content">
+                <p>Effortless validation for</p>
+                <h2>Design Professionals</h2>
+                <p>Test interfaces, interaction flows, iconography and more, to help you create intuitive and delightful
+                    experiences for your users.</p>
+                <img src="./assets/asset 16.png" alt="">
+                <div class="quoted-section">
+                    <p>The navigation test is god's gift to UI designers, it probably has the best power-to-simplicity
+                        ratio of any software, ever.</p>
+                </div>
+                <div class="human-section">
+                    <img src="./assets/asset 17.png" alt="">
+                    <div class="human-content">
+                        <p>Nick Franklin</p>
+                        <p>Chief Executive Officer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="b-feature flex-reverse">
+            <div class="f1-content">
+                <p>Optimisation for</p>
+                <h2>Marketers</h2>
+                <p>Fine-tune landing pages, messaging, and creative, helping you optimise conversion rates on marketing
+                    campaigns and product launches.</p>
+                <img src="./assets/asset 18.png" alt="">
+                <div class="quoted-section">
+                    <p>We use UsabilityHub tests to help us make decisions for various projects. From web and mobile
+                        design to marketing activities.</p>
+                </div>
+                <div class="human-section">
+                    <img src="./assets/asset 19.png" alt="">
+                    <div class="human-content">
+                        <p>Rick van de Ven</p>
+                        <p>Digital Marketing Analyst</p>
+                    </div>
+                </div>
+            </div>
+            <div class="b-content-img">
+                <img src="./assets/asset 20.png" alt="">
+            </div>
+        </div>
+        <div class="b-feature">
+            <div class="b-content-img">
+                <img src="./assets/asset 21.png" alt="">
+            </div>
+            <div class="f1-content">
+                <p>Easier decision making for</p>
+                <h2>Product Managers</h2>
+                <p>Ensure you’re delivering the right features to the right customers by validating product concepts
+                    with your target audience.</p>
+                <img src="./assets/asset 22.png" alt="">
+                <div class="quoted-section">
+                    <p>Adopting UsabilityHub got us into the habit of asking our users questions before locking in
+                        decisions.</p>
+                </div>
+                <div class="human-section">
+                    <img src="./assets/asset 23.png" alt="">
+                    <div class="human-content">
+                        <p>Ron Diorio</p>
+                        <p>VP Innovation & New Products</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="examples container">
+        <h2>One platform, endless possibilities</h2>
+        <a href="#" class="btn">See more examples</a>
+        <div class="example-cards">
+            <div class="example-card example-c1">
+                <span>Can users complete task in my software interface?</span>
+            </div>
+            <div class="example-card example-c2">
+                <span>Can users complete task in my software interface?</span>
+            </div>
+            <div class="example-card example-c3">
+                <span>Can users complete task in my software interface?</span>
+            </div>
+            <div class="example-card example-c4">
+                <span>Can users complete task in my software interface?</span>
+            </div>
+        </div>
+    </section>
+    <section class="try-panel">
+        <div class="container try-panel-inside">
+            <div class="left-panel">
+                <span>No participants? <br>
+                    No problem.
+                </span>
+                <p>Our integrated panel allows you to quickly and affordably recruit research participants that precisely
+                    match your target audience.</p>
+                <h3>Our panel includes:</h3>
+                <div class="grid-layout">
+                    <div class="left-grid">
+                        <ul>
+                            <li>530k+ panel participants</li>
+                            <li>35+ demographic options</li>
+                            <li>Free demographic testing</li>
+                        </ul>
+                    </div>
+                    <div class="right-grid">
+                        <ul>
+                            <li>Coverage in 100+ countries</li>
+                            <li>Average 2hr turn around time</li>
+                            <li>Response quality guarantee</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel-buttons-section">
+                    <a href="#" class="btn active">Try the panel calculator</a>
+                    <p>Or</p>
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+            <div class="right-panel">
+                <p>Starting from</p>
+                <p>USD $1</p>
+                <p>per response</p>
+            </div>
+        </div>
+    </section>
+    <section class="st-panel container">
+        <h3>Start testing today</h3>
+        <p>Take the guesswork out of design decisions</p>
+        <a href="#" class="btn active">Get Started</a>
+    </section>
+    <footer>
+        <div class="container footer-section">
+            <div class="f-logo">
+                <img src="./assets/asset 1.png" alt="">
+            </div>
+            <div class="grid-layout-footer">
+                <div class="Product lists">
+                    <h3>Product</h3>
+                    <li>Overview</li>
+                    <li>Pricing</li>
+                    <li>Research panel</li>
+                    <li>Customers</li>
+                    <li>Status page</li>
+                    <li>Status page</li>
+                    <li>Sign up</li>
+                    <li>Book a demo</li>
+                </div>
+                <div class="Methodologies lists">
+                    <h3>Card sorting</h3>
+                    <li>Prototype testing</li>
+                    <li>First click tests</li>
+                    <li>Preference tests</li>
+                    <li>Five second tests</li>
+                    <li>Design surveys</li>
+                </div>
+                <div class="Resources lists">
+                    <h3>Resources</h3>
+                    <li>Blog</li>
+                    <li>Testing guides</li>
+                    <li>Help center</li>
+                    <li>Contact</li>
+                    <li>Careers</li>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="sub-footer">
+        <div class="main-sub container">
+            <div class="policy">
+                <li>Privacy Policy</li>
+                <li>Terms &amp; Conditions</li>
+                <li>Security information</li>
+            </div>
+            <div class="socials">
+                <img src="./assets/asset 24.png">
+                <img src="./assets/asset 25.png">
+                <img src="./assets/asset 26.png">
+                <img src="./assets/asset 27.png">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
