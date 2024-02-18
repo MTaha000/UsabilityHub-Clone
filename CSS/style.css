@@ -197,7 +197,8 @@ nav .navlinks{
 .b-feature {
     display: flex;
     justify-content: space-evenly;
-    gap: 36px;
+    gap: 30px;
+    align-items: center;
     flex-wrap: wrap;
 }
 
