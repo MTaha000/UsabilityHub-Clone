@@ -11,7 +11,7 @@ cancel.addEventListener("click", () => {
     cancel.classList.remove("cancel-icon-show")
 })
 
-// Add Scroll Animation
+// Added Page Scroll Animation
 
 let sections = document.querySelectorAll(".section")
 let sec_1 = document.querySelector(".sec-1")
