@@ -14,6 +14,11 @@ cancel.addEventListener("click", () => {
 // Add Scroll Animation
 
 let sections = document.querySelectorAll(".section")
+let sec_1 = document.querySelector(".sec-1")
+
+if(window.location.reload){
+    sec_1.classList.add("show-animate")
+}
 
 window.onscroll = () => {
     sections.forEach((sec) => {

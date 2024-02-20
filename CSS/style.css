@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', 'sans-serif';
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
+body{
+    overflow-x: hidden;
+}
 /* Animation Classes Start */
 .sec-1{
     transform: translateX(1000px);
