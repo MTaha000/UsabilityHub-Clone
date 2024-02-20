@@ -3,7 +3,64 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', 'sans-serif';
+    overflow-x: hidden;
 }
+
+/* Animation Classes Start */
+.sec-1{
+    transform: translateX(1000px);
+    transition: 1s ease-in-out;
+    filter: blur(10px);
+    opacity: 0;
+}
+.sec-1.show-animate,
+.sec-3.show-animate{
+    transform: translateX(0);
+    filter: blur(0);
+    opacity: 1;
+}
+.sec-2{
+    transform: scale(.2);
+    transition: 1s ease-in-out;
+    filter: blur(10px);
+    opacity: 0;
+}
+.sec-2.show-animate,
+.sec-5.show-animate{
+    transform: scale(1);
+    filter: blur(0);
+    opacity: 1;
+}
+.sec-3{
+    transform: translateX(-1000px);
+    transition: 2s ease-in-out;
+    filter: blur(10px);
+    opacity: 0;
+}
+.sec-4{
+    position: relative;
+}
+.sec-4 .animation-bg{
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: 2s ease-in-out;
+}
+.sec-4.show-animate .animation-bg{
+    width: 0;
+}
+
+.sec-5{
+    transform: scale(.2);
+    transition: 2s;
+    filter: blur(10px);
+    opacity: 0;
+}
+
+/* Animation Classes End  */
 
 :root {
     --primary-color: #183b56;
